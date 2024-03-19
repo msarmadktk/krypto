@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
+
+.gradient-01 {
+    /* w-[679px] h-[679px] bg-indigo-400 bg-opacity-50 rounded-full blur-[306px] */
+    border-radius: 679px;
+    background: rgba(141, 141, 218, 0.50);
+    filter: blur(153px);
+    width: 679px;
+    height: 679px;
+    flex-shrink: 0;
+}
+
+*{
+    overflow-x: hidden;
+}
